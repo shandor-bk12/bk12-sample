@@ -36,6 +36,9 @@
 # javascript:__pdL('23192','Edit%20Basic%20List:%20API%20List',%20'1',
 # %20'slid=49748~admin=False',%20'',%20'False',%20'0',%20'',%20'default.aspx')
 # Then the list ID is 49748
+#
+# This requires the PHP Httpful client, available at http://phphttpclient.com/
+# which makes dealing with APIs more reliable and consistent in PHP
 
 include_once ('./httpful.phar');     # Httpful http://phphttpclient.com/
 
